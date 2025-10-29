@@ -1,4 +1,4 @@
-# 🧠 Educationnal Trajectory-Based Recommender System (TBRS) Notebook
+# Educationnal Trajectory-Based Recommender System (TBRS) Notebook
 
 This notebook explores the application of **control theory** and **Model Predictive Control (MPC)** to the design of **Educationnal Trajectory-Based Recommender Systems (ETBRS)**, as presented in:
 
@@ -18,7 +18,7 @@ where:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 This notebook demonstrates how to:
 
@@ -28,7 +28,7 @@ This notebook demonstrates how to:
 
 ---
 
-## 📈 Conceptual Framework
+## Conceptual Framework
 
 TBRS extends traditional recommender systems by introducing **temporal and goal-oriented dynamics**.  
 Rather than predicting isolated ratings, it computes an **optimal trajectory** of recommendations that minimizes a quadratic cost function.
