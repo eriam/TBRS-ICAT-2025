@@ -33,10 +33,7 @@ This notebook demonstrates how to:
 TBRS extends traditional recommender systems by introducing **temporal and goal-oriented dynamics**.  
 Rather than predicting isolated ratings, it computes an **optimal trajectory** of recommendations that minimizes a cost function:
 
-$$
-J = \sum_{t=0}^{T} \Big[ (x(t) - x^*)^{\top} Q (x(t) - x^*) + u(t)^{\top} R u(t) \Big]
-$$
-
+$J = \sum_{t=0}^{T} \big[(x(t) - x^*)^{\top} Q (x(t) - x^*) + u(t)^{\top} R u(t)\big]$
 
 This formalism enables:
 - **Constrained recommendations** (e.g., prerequisite ordering, cognitive load control)  
